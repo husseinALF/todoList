@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./App.css";
 
-let count = 1;
 function App() {
   const [todos, setTodos] = useState([]);
   const [newTodoTitle, setNewTodoTitle] = useState("");
